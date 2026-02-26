@@ -5,7 +5,7 @@
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/XjwLSnzMD376938ESNdoJm/graphql",
       "headers": {
         "all": {
-          "Store": "default"
+          "Store": "plexsupply_default"
         },
         "cs": {
           "Magento-Store-Code": "plexsupply_store",
