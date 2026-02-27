@@ -5,18 +5,17 @@
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/XjwLSnzMD376938ESNdoJm/graphql",
       "headers": {
         "all": {
-          "Store": "plexsupply_default"
+          "Store": "default"
         },
         "cs": {
-          "Magento-Store-Code": "plexsupply_store",
-          "Magento-Store-View-Code": "plexsupply_default",
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base"
         }
       },
-      "commerce-b2b-enabled": false,
-      "commerce-companies-enabled": false,
-      "commerce-assets-enabled": true,
-      "adobe-commerce-optimizer": false,
+      "commerce-b2b-enabled": true,
+      "commerce-companies-enabled": true,
+      "commerce-assets-enabled": false,
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
@@ -34,7 +33,7 @@
       },
       "plugins": {
         "picker": {
-          "rootCategory": "33"
+          "rootCategory": "2"
         }
       }
     }
